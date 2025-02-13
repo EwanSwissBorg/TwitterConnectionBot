@@ -18,4 +18,4 @@ def load_sessions():
 
 def get_session(token):
     sessions = load_sessions()
-    return sessions.get(token) 
+    return sessions.get(token)
